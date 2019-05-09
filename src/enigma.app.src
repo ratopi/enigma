@@ -1,0 +1,20 @@
+{
+	application,
+	enigma,
+	[
+		{description, "An OTP application"},
+		{vsn, "0.1.0"},
+		{registered, []},
+
+		{applications, [
+			kernel,
+			stdlib
+		]},
+
+		{env, []},
+		{modules, []},
+
+		{maintainers, ["Ralf Th. Pietsch <ratopi@abwesend.de>"]},
+		{licenses, ["MIT"]},
+		{links, []}
+	]}.
